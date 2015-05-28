@@ -24,9 +24,9 @@ namespace PcExpert1
             {
                 conn.Open();
                 rd = cmd.ExecuteReader();
-                gvOpzoeken.DataSource = rd;
+                gvOpzoeken.DataSource = rd; 
                 gvOpzoeken.DataBind();
-            }
+            
 
             catch
             {
