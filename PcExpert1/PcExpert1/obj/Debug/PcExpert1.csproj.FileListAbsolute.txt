@@ -1,0 +1,13 @@
+c:\users\robert\documents\visual studio 2013\Projects\PcExpert1\PcExpert1\bin\PcExpert1.dll.config
+c:\users\robert\documents\visual studio 2013\Projects\PcExpert1\PcExpert1\bin\PcExpert1.dll
+c:\users\robert\documents\visual studio 2013\Projects\PcExpert1\PcExpert1\bin\PcExpert1.pdb
+c:\users\robert\documents\visual studio 2013\Projects\PcExpert1\PcExpert1\obj\Debug\PcExpert1.dll
+c:\users\robert\documents\visual studio 2013\Projects\PcExpert1\PcExpert1\obj\Debug\PcExpert1.pdb
+c:\users\robert\documents\visual studio 2013\Projects\PcExpert1\PcExpert1\obj\Debug\PcExpert1.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\PcExpert1\PcExpert1\bin\PcExpert1.dll.config
+C:\Users\Robert\Desktop\PcExpert1\PcExpert1\bin\PcExpert1.dll
+C:\Users\Robert\Desktop\PcExpert1\PcExpert1\bin\PcExpert1.pdb
+C:\Users\Robert\Desktop\PcExpert1\PcExpert1\obj\Debug\PcExpert1.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\PcExpert1\PcExpert1\obj\Debug\PcExpert1.dll
+C:\Users\Robert\Desktop\PcExpert1\PcExpert1\obj\Debug\PcExpert1.pdb
+C:\Users\Robert\Desktop\PcExpert1\PcExpert1\bin\MySql.Data.dll

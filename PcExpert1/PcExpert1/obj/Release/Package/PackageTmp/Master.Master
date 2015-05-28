@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.Master.cs" Inherits="PcExpert1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="css.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <form id="form1" runat="server">
+    
+
+
+        <div id ="container">
+
+            <div id ="kop">
+               <img id="koplogo1" src="images/logo-naast.jpg" />
+
+                    
+                    
+                    
+                    <asp:ImageButton ID="imgButn4" runat="server" CausesValidation="false" OnClick="imgButn4_Click" ImageUrl="~/images/linkjes/LInk-contact.jpg" />
+                    <!--<asp:ImageButton ID="imgButn5" runat="server" CausesValidation="false" OnClick="imgButn5_Click" ImageUrl="~/images/linkjes/LINK-opzoeken.jpg" />-->
+                    <asp:ImageButton ID="imgButn2" runat="server" CausesValidation="false" OnClick="imgButn2_Click" ImageUrl="~/images/linkjes/LINK-Bestellen.jpg" />
+                    <asp:ImageButton ID="imgButn3" runat="server" CausesValidation="false" OnClick="imgButn3_Click" ImageUrl="~/images/linkjes/LINK-registeren.jpg" />
+                    <asp:ImageButton ID="imgButn1" runat="server" CausesValidation="false" Onclick="imgButn1_Click" ImageUrl="~/images/linkjes/LINK-home.jpg" />
+                    
+                    
+                    
+                
+            </div>
+
+                    <div id ="left">
+                         <img id="fotoLinks" src="images/foto%20een%20deel.jpg" />
+
+                    </div>
+
+                 <div id="contentPage">
+
+
+                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                         </asp:ContentPlaceHolder>
+                 </div>
+            <div id="voet">
+          
+                    <div class="fb-like" data-href="https://www.facebook.com/PcExpertKrommenie?ref=hl" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
+
+                    </div>
+            </div>
+
+        </div>
+        
+    
+    
+    </form>
+    <p>
+        &nbsp;</p>
+</body>
+</html>
